@@ -1,0 +1,18 @@
+[package]
+name = "fuzion-flows"
+version = "0.8.0"
+edition = "2021"
+authors = ["Fuzion Works"]
+description = "Interfaces for Fuzion Flows"
+license = "Apache-2.0"
+repository = "https://github.com/FuzionWorks/fuzion-rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cosmwasm-std = { workspace = true }
+cosmwasm-schema = { workspace = true }
+cw20 = { workspace = true }
+fuzion-std = { path = "../fuzion-std", version = "0.8" }
+schemars = { workspace = true }
+serde = { workspace = true, default-features = false, features = ["derive"] }
