@@ -5,7 +5,7 @@ edition = "2021"
 authors = ["Fuzion Works"]
 description = "Interfaces for Fuzion Flows"
 license = "Apache-2.0"
-repository = "https://github.com/FuzionWorks/fuzion-rs"
+repository = "https://github.com/FuzionWorks/fuzion-rs/tree/main/packages/fuzion-flows"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
