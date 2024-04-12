@@ -384,6 +384,18 @@ dependencies = [
 ]
 
 [[package]]
+name = "fuzion-utilities"
+version = "0.8.0"
+dependencies = [
+ "cosmwasm-schema",
+ "cosmwasm-std",
+ "cw20",
+ "fuzion-std",
+ "schemars",
+ "serde",
+]
+
+[[package]]
 name = "generic-array"
 version = "0.14.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
